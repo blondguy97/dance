@@ -1,0 +1,30 @@
+html {
+    font-size: 62.5%;
+}
+
+
+.wrapper {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.31;
+    color: $black-color;
+}
+
+[class*="__container"] {
+    max-width: 1070px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.btn {
+    background-color: $purple-color;
+    color: #fff;
+    border-radius: 99px;
+}
+
